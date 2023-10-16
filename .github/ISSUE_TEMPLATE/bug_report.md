@@ -1,7 +1,7 @@
 ---
 name: Bug report
-about: Let us know of any issues you've experienced playing the game.
-title: ''
+about: Incorrect Hitbox Bug
+title: 'Rounds Colliding With Non-Existent Crew'
 labels: Bug
 assignees: ''
 
@@ -9,38 +9,40 @@ assignees: ''
 
 **Describe the bug**
 
-A clear and concise description of what the bug is.
+During a post-game replay of the mission "Claustrophobia", I noticed how an APDS round shot from my M2 Bradley, which was aimed at a BMP1, collided with the inverted crew model of a exploded nearby turret of a dead T-55A; the round, having hit the (non)existent crew, spalled and lost energy, creating an unrealistic outcome
 
 **Are you playing with mods?**
 
-Yes or no. If yes, please note which mods here. Any third-party content may be incompatible with GHPC's ongoing updates. While issues related to third-party content are not a priority for development, known conflicts can be reported for other users.
+No, vanilla game
 
 **To Reproduce**
 
 Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+
+1. Start mission "Claustrophobia" (altough it might be a more general bug)
+2. Destroy a T-55A by making its turret explode AND land inverted
+3. Shoot slightly above the base of the inverted turret
+4. See bug
+
 
 **Expected Behavior**
 
-A clear and concise description of what you expected to happen.
+The round shouldn't collide with the crew, as the latter simply should not be there, therefore its trajectory should remain unchanged
 
 **Screenshots**
 
-If applicable, add screenshots to help explain your problem.
+![image](https://github.com/RadianSimulations/ghpc-feedback/assets/148151268/825b2088-cb60-4002-82b7-dc08a8629ae5)
+
 
 **Sources**
 
-If applicable, cite any public confirmed sources needed to justify issues involving armor values and ammunition types.
-Common concerns like "This doesn't feel right" or "_Other Game_ does it this way" are **not** valid citations and we will cause the issue to be removed.
+Common sense (joke). On a more serious note, I didn't see or hear anyone have the same problem, so for now it's just me
 
 **Desktop (Please complete the following information):**
 
- - OS: [e.g. Windows 10]
- - Game Version [e.g. 20210506.1]
+ - OS: Windows 11
+ - Game Version [20230905]
 
 **Additional context**
 
-Add any other context about the problem here.
+No additional context, just some good wishes that you will be able to fix this bug without any annyoing extra work
